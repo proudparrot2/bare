@@ -1,5 +1,12 @@
 {
   "name": "bare",
+  "module": "index.js",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
   "dependencies": {
     "@tomphttp/bare-server-node": "^2.0.1",
     "colors": "^1.4.0"
